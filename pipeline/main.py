@@ -28,7 +28,7 @@ import uuid
 import sys
 
 
-from config import API_KEY, PIPELINES_DIR
+from pipeline.config import API_KEY, PIPELINES_DIR
 
 if not os.path.exists(PIPELINES_DIR):
     os.makedirs(PIPELINES_DIR)
