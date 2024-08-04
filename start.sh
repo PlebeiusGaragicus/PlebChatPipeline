@@ -130,3 +130,6 @@ fi
 
 # Start the server
 uvicorn main:app --host "$HOST" --port "$PORT" --forwarded-allow-ips '*'
+
+# Start the server with auto-reload
+# uvicorn main:app --host "$HOST" --port "$PORT" --reload --forwarded-allow-ips '*'

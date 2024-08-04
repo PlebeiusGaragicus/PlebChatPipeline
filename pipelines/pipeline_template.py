@@ -11,7 +11,7 @@ except Exception:
 
 ########################################################################
 # This is shown in the UI to the user
-AGENT_NAME = "LangGraph graph_template"
+AGENT_NAME = "LangGraph Template"
 
 # This is used to identify the approprate graph in the Langserver
 # NOTE: This must match exactly with the graph_name variable in your inherited BotCommandHandler class!
